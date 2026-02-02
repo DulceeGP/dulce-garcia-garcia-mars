@@ -1,0 +1,36 @@
+body { background-color: rgb(253, 131, 194); color:rgb(248, 243, 244); font-family: Georgia, 'Times New Roman', Times, serif;}
+section{ 
+    padding: 30px;
+    margin: 25px;
+}
+h1{
+    text-align: center;
+}
+h2 { font-size:larger;
+    font-weight: bold;
+    color:rgb(168, 0, 39)
+}
+h1{
+     font-size: 40px;
+    color:rgb(163, 1, 69);
+    letter-spacing: 2px;
+    text-shadow: 
+         -2px -1px 0 rgb(255, 218, 234);
+
+}
+#Experience{ 
+    background-color:rgb(231, 0, 116);
+    padding: 10px;
+    margin: 8px 10; 
+    border-radius: 50px;}
+
+#Experience h2{ 
+    text-align: left;
+    color:white;
+    margin: 20px;
+}
+#Connect a{ 
+    color: rgb(13, 237, 241);
+    text-decoration:underline;
+    font-weight: bold;
+}
