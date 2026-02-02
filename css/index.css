@@ -1,36 +1,102 @@
-body { background-color: rgb(253, 131, 194); color:rgb(248, 243, 244); font-family: Georgia, 'Times New Roman', Times, serif;}
-section{ 
+body { 
+    background-color: rgb(253, 131, 194); 
+    color: rgb(248, 243, 244); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav { 
+     background-color: rgb(231, 0, 116);
+    padding: 5px 20px;
+    margin: 20px; 
+    border-radius: 120px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: fit-content;
+}
+
+nav a{ 
+    color: rgb(13, 237, 241);
+    text-decoration: underline;
+    font-weight: bold;
+}
+section { 
     padding: 30px;
     margin: 25px;
 }
-h1{
-    text-align: center;
-}
-h2 { font-size:larger;
-    font-weight: bold;
-    color:rgb(168, 0, 39)
-}
-h1{
-     font-size: 40px;
-    color:rgb(163, 1, 69);
-    letter-spacing: 2px;
-    text-shadow: 
-         -2px -1px 0 rgb(255, 218, 234);
 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(163, 1, 69);
+    letter-spacing: 2px;
+    text-shadow: -2px -1px 0 rgb(255, 218, 234);
 }
+
+h2 { 
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(168, 0, 39);
+}
+
 #Experience{ 
-    background-color:rgb(231, 0, 116);
+    background-color: rgb(231, 0, 116);
     padding: 10px;
-    margin: 8px 10; 
-    border-radius: 50px;}
+    margin: 8px 10px; 
+    border-radius: 50px;
+}
 
 #Experience h2{ 
     text-align: left;
-    color:white;
+    color: white;
     margin: 20px;
 }
+
+#Experience .job {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.job-date {
+    font-style: italic;
+    font-size: 14px;
+    color: #ffddee;
+}
+
+.job-description {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+#Connect ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#Connect li {
+    margin: 0;
+}
+
 #Connect a{ 
     color: rgb(13, 237, 241);
-    text-decoration:underline;
+    text-decoration: underline;
     font-weight: bold;
 }
